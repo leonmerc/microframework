@@ -1,0 +1,21 @@
+{
+  "name": "leonmerc/microframework",
+  "description": "Small PHP framework for faster deployment of static pages",
+  "version": "1.0",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Leon Merc",
+      "email": "leon.merc@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "classmap": [
+      "./"
+    ]
+  }
+}
