@@ -2,4 +2,4 @@
 
 use Framework\Core\Router;
 
-Router::get('','introMethod@ExampleController');
+Router::get('', 'introMethod@ExampleController');

@@ -15,7 +15,7 @@ class Request
         $basePath = dirname($_SERVER['PHP_SELF']);
         $fullPath = $_SERVER['REQUEST_URI'];
 
-        return trim(substr($fullPath,strlen($basePath)),'/');
+        return trim(substr($fullPath, strlen($basePath)), '/');
     }
 
     /**

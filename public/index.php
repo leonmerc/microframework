@@ -7,4 +7,4 @@ use Framework\Core\Router;
 use Framework\Core\Request;
 
 Router::setup('../webpage/routes.php')
-        ::direct(Request::method(),Request::path());
+    ::direct(Request::method(), Request::path());

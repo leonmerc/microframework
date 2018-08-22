@@ -11,14 +11,14 @@ class PdoConnection implements Connection
     {
         $dsn = $config['driver'].':host='.$config['host'].';dbname='.$config['name'];
 
-        try{
+        try {
             return new PDO (
                 $dsn,
                 $config['user'],
                 $config['pass'],
                 $config['options']
             );
-        }catch (PDOException $e){
+        } catch (PDOException $e) {
             die($e->getMessage());
         }
     }
